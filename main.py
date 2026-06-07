@@ -1,16 +1,16 @@
-name = input("Masukkan nama mahasiswa: ")
+student_name = input("Masukkan nama mahasiswa: ")
 
-a = float(input("Nilai 1: "))
-b = float(input("Nilai 2: "))
-c = float(input("Nilai 3: "))
+score1 = float(input("Nilai 1: "))
+score2 = float(input("Nilai 2: "))
+score3 = float(input("Nilai 3: "))
 
-r = (a + b + c) / 3
+average_score = (score1 + score2 + score3) / 3
 
-if r >= 75:
-    print(name)
-    print(r)
+if average_score >= 75:
+    print(student_name)
+    print(average_score)
     print("Lulus")
 else:
-    print(name)
-    print(r)
+    print(student_name)
+    print(average_score)
     print("Tidak Lulus")
